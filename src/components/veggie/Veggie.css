@@ -1,0 +1,11 @@
+.veggie-container {
+  height: 50vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.veggie-card img {
+  border-radius: 20px;
+  height: 10rem;
+}

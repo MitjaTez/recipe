@@ -1,0 +1,32 @@
+.recipe-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: transparent;
+  transition: transform 0.3s;
+  max-height: 20rem;
+}
+
+.recipe-card-container:hover {
+  transform: scale(1.05);
+}
+
+.recipe-card-image {
+  max-width: 20rem;
+  max-height: 20rem;
+  border-radius: 10px;
+}
+
+.recipe-card-title {
+  font-size: 1.2rem;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.recipe-card-link {
+  color: inherit;
+  text-decoration: none;
+}

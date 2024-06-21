@@ -1,0 +1,24 @@
+.remove-button {
+  padding: 0.5rem 1rem;
+  color: #000000;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1.2rem;
+  margin-right: 1.2rem;
+  &:hover {
+    border: 2px solid rgb(141, 138, 138);
+  }
+}
+.no-recipe-msg {
+  font-size: 2rem;
+  color: rgb(66, 46, 46);
+  text-align: center;
+}
+.favorite-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

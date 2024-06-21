@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(170, 179, 153);
+}
+
+.home-link {
+  position: absolute;
+  top: 2rem;
+  left: 6rem;
+  display: flex;
+  text-decoration: none;
+}
+.logo-icon {
+  font-size: 3rem;
+  color: black;
+}
+.logo-name {
+  color: black;
+  font-weight: 100;
+}
